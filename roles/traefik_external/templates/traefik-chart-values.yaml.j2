@@ -24,7 +24,8 @@ ports:
       port: websecure
   websecure:
     port: 8443
-    expose: true
+    expose: 
+      default: true
     exposedPort: 443
     protocol: TCP
     tls:
@@ -34,7 +35,8 @@ ports:
       domains: []
   metrics:
     port: 9100
-    expose: false
+    expose: 
+      default: false
     exposedPort: 9100
     protocol: TCP
 

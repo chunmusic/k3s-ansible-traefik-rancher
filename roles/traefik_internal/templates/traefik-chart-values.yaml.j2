@@ -21,12 +21,14 @@ ports:
     protocol: TCP
   web:
     port: 8000
-    expose: true
+    expose: 
+      default: true
     exposedPort: 80
     protocol: TCP
   websecure:
     port: 8443
-    expose: true
+    expose: 
+      default: true
     exposedPort: 443
     protocol: TCP
     tls:
@@ -36,7 +38,8 @@ ports:
       domains: []
   metrics:
     port: 9100
-    expose: false
+    expose: 
+      default: false
     exposedPort: 9100
     protocol: TCP
 
