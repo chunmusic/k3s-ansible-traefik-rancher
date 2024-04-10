@@ -1,4 +1,4 @@
-roles/my-cluster/
-add-hosts.yml
-my-cluster.yml
-ansible.cfg
+# roles/my-cluster/
+# add-hosts.yml
+# my-cluster.yml
+# ansible.cfg
